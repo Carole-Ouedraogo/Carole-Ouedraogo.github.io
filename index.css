@@ -232,14 +232,11 @@ header table {
   width: 100%;
   columns: 1;
   column-gap: 4%;
-  z-index: 1;
-  transition: 0.4s ease-in-out;
 }
 #photos2 p {
   width: 100%;
   height: auto;
   margin: 4.5% 0px;
-  transition: 0.4s ease-in-out;
   font-size: 20;
 }
 #photos img {
@@ -277,7 +274,7 @@ header table {
 #contact h1 {
   padding: 5px 0px;
   border-bottom: 4px solid rgb(255, 44, 90);
-  width: 7%;
+  width: 9%;
 }
 #contact table {
   width: 100%;
