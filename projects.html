@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Carole Ouedraogo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="loading">
+      <!-- <div id="spinner"></div> -->
+    <!-- </div> -->
+    <!-- <div id="magnify"> -->
+      <!-- <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1> -->
+      <!-- <div id="img_here"></div> -->
+    </div>
+    <header
+      id="header"
+      class="animated slideInDown"
+      style="animation-delay: 1.8s;"
+    >
+      <table>
+        <tr>
+          <td id="logo" style="font-weight: bold;">CAROLE OUEDRAOGO</td>
+          <!-- <table> -->
+            <!-- <tr> -->
+            <td class="animated zoomIn" style="animation-delay: 3s;">
+              <a
+                class="social"
+                href="https://www.linkedin.com/in/carole-ouedraogo/"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </td>
+
+            <td class="animated zoomIn" style="animation-delay: 2.6s;">
+              <a class="social" href="https://github.com/Carole-Ouedraogo"
+                ><i class="fab fa-github"></i
+              ></a>
+            </td>
+
+            <td class="animated zoomIn" style="animation-delay: 2.6s;">
+              <a class="social" href="https://medium.com/@Carole_Ouedraogo"
+                ><i class="fab fa-medium"></i
+              ></a>
+            </td>
+
+            <td class="animated zoomIn" style="animation-delay: 2.4s;">
+              <a class="social" href="https://twitter.com/Sweetwendyam"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </td>
+
+            <!-- <td class="animated zoomIn" style="animation-delay: 2.8s;">
+              <a class="social"><i class="fab fa-dribbble"></i></a>
+            </td> -->
+
+            <td class="animated zoomIn" style="animation-delay: 2.2s;">
+              <a class="social" href="https://www.facebook.com"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </td>
+            <!-- </tr> -->
+          <!-- </table> -->
+          <td id="navigation">
+            <!-- <a href="#">Projects</a> -->
+            <a href="./index.html">About Me</a>
+            <!-- <a href="./resume.html">Resume</a> -->
+            <a href="./Carole_Ouedraogo_Resume_Aug7.pdf">Resume</a>
+            <a href="#project">Projects</a>
+            <a href="#contact2">Contact</a>
+            
+          </td>
+        </tr>
+      </table>
+    </header>
+    <table id="top_part">
+      <tr>
+        <td
+          id="about"
+          class="animated slideInLeft"
+          style="animation-delay: 2s;"
+        >
+          <!-- <h1>Full-Stack Software Engineer</h1> -->
+          <div id="photos2">
+       
+        <img
+          onclick="magnify($(this).attr('src'))"
+          src=""/>
+        
+      <h1 style= "  padding: 5px 0px;
+  border-bottom: 4px solid rgb(255, 44, 90);
+  width: 30%;">Projects</h1>
+          <p>
+          <h2 style="text-decoration: underline; ">ClassUp Web Application</h2>
+          <ul>
+           <li>
+          Collaborated with a team of 6 to build a one-stop productivity web application, called CLASSUP for facilitating students
+          work collaboration, by providing multiple services (reminders, study sessions, course reviews, access to course materials).
+          </li>
+          <li>
+          Technology used: Django Rest framework and React, managing authorization is via JSON Web Tokens(JWT), with
+          PostgreSQL, deployment Heroku, leveraged Trello and GitHub for agile team workflow.
+          </li>
+          </ul>
+          </p>
+
+          <p>
+           <h2 style="text-decoration: underline; ">SignUp Web Application</h2>
+          <ul>
+           <li>
+         Developed a full-stack web application used as a platform to place orders for real estate signs and signposts services for a Real Estate business. 
+         </li>
+         <li>
+         SignUp improves communication between realtors and contractors and ensures accurate records.
+         </li>
+         <li> Technology used: Invision product design studio, leveraging Python Django framework, JavaScript React, HTML, and CSS. </li>
+         </ul>
+          </p>
+          </div>
+                    <!-- <button class="btn_one">Hire Me</button> -->
+
+
+
+          <!-- <br /> -->
+          
+        </td>
+        <td
+          id="rightImage2"
+          class="animated jackInTheBox"
+          style="animation-delay: 2.2s;"
+        ></td>
+      </tr>
+    </table>
+    
+    <div id="work">
+      <h1   style="padding: 5px 0px;
+  border-bottom: 4px solid rgb(255, 44, 90);
+  width: 7%;">ClassUp</h1>
+
+        <h1   style="padding: 5px 0px;
+  border-bottom: 4px solid rgb(255, 44, 90);
+  width: 7%;">SignUp</h1>
+
+        <h1   style="padding: 5px 0px;
+  border-bottom: 4px solid rgb(255, 44, 90);
+  width: 7%;">Portfolio</h1>
+
+      <div id="photos">
+       
+        <img
+          onclick="magnify($(this).attr('src'))"
+          src=""
+        />
+        <img onclick="magnify($(this).attr('src'))" src=" " />
+        <img onclick="magnify($(this).attr('src'))" src=" " />
+        <img onclick="magnify($(this).attr('src'))" src=" " />
+        <img onclick="magnify($(this).attr('src'))" src=" " />
+      </div>
+    </div>
+
+
+    </div>
+    <div id="contact">
+           <h1>Contact</h1>
+      <table>
+        <tr>
+          <td>
+            <div >
+              <table >
+                <tr>
+                  <td><i class="fas fa-at"></i> &nbsp; ouedca@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div id="address">
+                      Columbus, Ohio<br />
+                      United States Of America
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="social-icon"
+                      href="https://www.linkedin.com/in/carole-ouedraogo/"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                    <a
+                      class="social-icon"
+                      href="https://medium.com/@Carole_Ouedraogo"
+                      ><i class="fab fa-medium"></i
+                    ></a>
+                    <!-- <a class="social"><i class="fab fa-twitter"></i></a> -->
+                    <a
+                      class="social-icon"
+                      href="https://github.com/Carole-Ouedraogo"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                    <a
+                      class="social-icon"
+                      href="https://twitter.com/Sweetwendyam"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="social-icon" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+          
+        </tr>
+      </table>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>

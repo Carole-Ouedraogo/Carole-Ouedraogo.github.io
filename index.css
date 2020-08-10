@@ -194,6 +194,19 @@ header table {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#rightImage2 {
+  width: 80%;
+  height: 95vh;
+  background: linear-gradient(
+      0deg,
+      rgba(245, 193, 205, 0.3),
+      rgba(250, 195, 236, 0.3)
+    ),
+    url("./img/laptop.jpg") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #work {
   width: 92vw;
   padding: 6vh 4vw;
@@ -202,7 +215,10 @@ header table {
 #work h1 {
   padding: 5px 0px;
   border-bottom: 4px solid rgb(255, 44, 90);
-  width: 12%;
+  width: 11%;
+}
+#work p {
+  font-size: 26px;
 }
 #photos {
   width: 100%;
@@ -210,6 +226,21 @@ header table {
   column-gap: 4%;
   z-index: 1;
   transition: 0.4s ease-in-out;
+}
+
+#photos2 {
+  width: 100%;
+  columns: 1;
+  column-gap: 4%;
+  z-index: 1;
+  transition: 0.4s ease-in-out;
+}
+#photos2 p {
+  width: 100%;
+  height: auto;
+  margin: 4.5% 0px;
+  transition: 0.4s ease-in-out;
+  font-size: 20;
 }
 #photos img {
   width: 75%;
@@ -227,7 +258,7 @@ header table {
   height: auto;
   margin: 4.5% 0px;
   transition: 0.4s ease-in-out;
-  font-size: 25;
+  font-size: 20;
 }
 #bio {
   width: 92vw;
@@ -246,7 +277,7 @@ header table {
 #contact h1 {
   padding: 5px 0px;
   border-bottom: 4px solid rgb(255, 44, 90);
-  width: 10%;
+  width: 7%;
 }
 #contact table {
   width: 100%;
