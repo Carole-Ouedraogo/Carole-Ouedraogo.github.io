@@ -43,8 +43,8 @@
           <td id="logo" style="font-weight: bold;">CAROLE OUEDRAOGO</td>
           <td id="navigation">
             <a href="#work">About Me</a>
-            <!-- <a href="./resume.html">Resume</a> -->
-            <a href="./Carole_Ouedraogo_Resume_Aug7.pdf">Resume</a>
+            <a href="./resume.html">Resume</a>
+            <!-- <a href="./Carole_Ouedraogo_Resume_Aug7.pdf">Resume</a> -->
             <a href="./projects.html">Projects</a>
             <a href="#contact">Contact</a>
           </td>
@@ -216,13 +216,22 @@
             </div>
           </td>
           <td>
-            <form>
+            <form action="https://formspree.io/mrgyvene"
+            method="POST">
+
               <input type="text" placeholder="name" required />
-              <input type="email" placeholder="email" required /><br />
-              <textarea placeholder="your message" required rows="5"></textarea
-              ><br />
+              
+              <label>
+              <input type="email" name="_replyto" placeholder="email" required /><br />
+              </label>
+              <label>
+              <textarea name="message" placeholder="your message" required rows="5"></textarea>
+              </label>
+              <br />
               <button class="btn_one">send</button>
             </form>
+
+            
           </td>
         </tr>
       </table>
